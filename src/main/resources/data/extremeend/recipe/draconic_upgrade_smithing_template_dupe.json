@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "extremeend:ruby_block"
+    },
+    "C": {
+      "item": "minecraft:end_stone"
+    },
+    "S": {
+      "item": "extremeend:draconic_upgrade_smithing_template"
+    }
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "extremeend:draconic_upgrade_smithing_template"
+  }
+}

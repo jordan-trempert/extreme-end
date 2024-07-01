@@ -1,0 +1,15 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 65748332,
+    "separation": 1,
+    "spacing": 2,
+    "spread_type": "triangular"
+  },
+  "structures": [
+    {
+      "structure": "extremeend:bright_chorus_tree",
+      "weight": 1
+    }
+  ]
+}

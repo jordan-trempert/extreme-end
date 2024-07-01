@@ -1,0 +1,45 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 16647711,
+    "fog_color": 16647711,
+    "water_color": 16647711,
+    "water_fog_color": 16647711,
+    "grass_color": 16647711,
+    "foliage_color": 16647711,
+    "particle": {
+      "options": {
+        "type": "falling_spore_blossom"
+      },
+      "probability": 0
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+  },  "features": [
+    [
+      "minecraft:end_gateway_return",
+      "minecraft:patch_grass_normal",
+      "extremeend:patch_chorus_growth"
+    ]
+  ]
+}

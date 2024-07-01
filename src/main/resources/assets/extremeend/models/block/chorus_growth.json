@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "extremeend:block/chorus_growth"
+  }
+}

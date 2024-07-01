@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "extremeend:block/chorus_stem",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "extremeend:block/chorus_stem"
+    },
+    "axis=z": {
+      "model": "extremeend:block/chorus_stem",
+      "x": 90
+    }
+  }
+}

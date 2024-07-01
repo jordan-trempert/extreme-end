@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "extremeend",
+	"version": "${version}",
+	"name": "Stardom's Extreme End",
+	"description": "This mod overhauls The End in an extreme way!",
+	"authors": [
+		"Stardom"
+	],
+	"contact": {
+		"homepage": "https://stardomga.me/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/extremeend/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"stardom.extremeend.StardomsExtremeEnd"
+		],
+		"client": [
+			"stardom.extremeend.StardomsExtremeEndClient"
+		],
+		"fabric-datagen": [
+			"stardom.extremeend.StardomsExtremeEndDataGenerator"
+		],
+		"terrablender": [
+			"stardom.extremeend.world.biome.ModTerrablenderAPI"
+		]
+	},
+	"mixins": [
+		"stardoms-extreme-end.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

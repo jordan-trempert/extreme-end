@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:end/enderite_armor",
+  "criteria": {
+    "draconic_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "extremeend:draconic_helmet"
+          },
+          {
+            "items": "extremeend:draconic_chestplate"
+          },
+          {
+            "items": "extremeend:draconic_leggings"
+          },
+          {
+            "items": "extremeend:draconic_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.end.draconic_armor.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "extremeend:draconic_helmet"
+    },
+    "title": {
+      "translate": "advancements.end.draconic_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "draconic_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fire_floor",
+  "textures": {
+    "fire": "extremeend:block/ender_flame_1"
+  }
+}

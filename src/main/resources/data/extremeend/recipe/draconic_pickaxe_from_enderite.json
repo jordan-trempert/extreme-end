@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "extremeend:draconic_upgrade_smithing_template"
+    },
+    "base": {
+        "item": "extremeend:enderite_pickaxe"
+    },
+    "addition": {
+        "item": "extremeend:draconium_ingot"
+    },
+    "result": {
+        "id": "extremeend:draconic_pickaxe"
+    }
+}

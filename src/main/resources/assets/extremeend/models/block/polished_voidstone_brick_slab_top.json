@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "extremeend:block/polished_voidstone_bricks",
+    "side": "extremeend:block/polished_voidstone_bricks",
+    "top": "extremeend:block/polished_voidstone_bricks"
+  }
+}

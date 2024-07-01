@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "extremeend:ruby_block",
+    "extremeend:phosphorus",
+    "extremeend:enderite_block",
+    "extremeend:draconium_block",
+    "extremeend:ruby_ore",
+    "extremeend:enderite_ore",
+    "extremeend:phosphorus_enderite_ore",
+    "extremeend:deepslate_ruby_ore",
+    "extremeend:nether_ruby_ore",
+    "extremeend:end_ruby_ore",
+    "extremeend:raw_ruby_block",
+    "extremeend:mossy_end_stone",
+    "extremeend:saddened_end_stone",
+    "extremeend:voidstone",
+    "extremeend:lumina_stone",
+    "extremeend:polished_voidstone",
+    "extremeend:polished_voidstone_bricks",
+    "extremeend:polished_voidstone_brick_slab",
+    "extremeend:polished_voidstone_brick_wall",
+    "extremeend:polished_voidstone_brick_stairs",
+    "extremeend:missing"
+
+  ]
+}

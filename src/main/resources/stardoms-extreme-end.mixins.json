@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "stardom.extremeend.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ChorusFlowerBlockMixin",
+    "ChorusPlantBlockMixin",
+    "ChorusPlantFeatureMixin",
+    "LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

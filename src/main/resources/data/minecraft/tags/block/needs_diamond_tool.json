@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "extremeend:ruby_block",
+    "extremeend:draconium_block",
+    "extremeend:enderite_block",
+    "extremeend:ruby_ore",
+    "extremeend:enderite_ore",
+    "extremeend:deepslate_ruby_ore",
+    "extremeend:nether_ruby_ore",
+    "extremeend:end_ruby_ore",
+    "extremeend:raw_ruby_block",
+    "extremeend:phosphorus_enderite_ore"
+
+  ]
+}

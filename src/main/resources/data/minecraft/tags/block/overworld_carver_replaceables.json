@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "extremeend:lumina_stone",
+    "extremeend:phosphorus",
+    "extremeend:mossy_end_stone",
+    "extremeend:saddened_end_stone",
+    "extremeend:voidstone",
+    "extremeend:missing",
+    "minecraft:end_stone"
+
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "chorus_wood",
+  "ingredients": [
+    {
+      "item": "extremeend:stripped_chorus_wood"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "extremeend:chorus_planks"
+  }
+}

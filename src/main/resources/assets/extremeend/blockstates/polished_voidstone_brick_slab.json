@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "extremeend:block/polished_voidstone_brick_slab"
+    },
+    "type=double": {
+      "model": "extremeend:block/polished_voidstone_bricks"
+    },
+    "type=top": {
+      "model": "extremeend:block/polished_voidstone_brick_slab_top"
+    }
+  }
+}

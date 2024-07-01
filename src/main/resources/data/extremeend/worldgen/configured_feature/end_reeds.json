@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:block_column",
+        "config": {
+          "allowed_placement": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          },
+          "direction": "up",
+          "layers": [
+            {
+              "height": {
+                "type": "minecraft:biased_to_bottom",
+                "max_inclusive": 14,
+                "min_inclusive": 4
+              },
+              "provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "extremeend:end_reeds",
+                  "Properties": {
+                    "top": "false"
+                  }
+                }
+              }
+            },
+            {
+              "height": 1,
+              "provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "extremeend:end_reeds",
+                  "Properties": {
+                    "top": "true"
+                  }
+                }
+              }
+            }
+          ],
+          "prioritize_tip": true
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
+              },
+              {
+                "type": "minecraft:would_survive",
+                "state": {
+                  "Name": "extremeend:end_reeds",
+                  "Properties": {
+                    "top": "false"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "tries": 40,
+    "xz_spread": 10,
+    "y_spread": 0
+  }
+}

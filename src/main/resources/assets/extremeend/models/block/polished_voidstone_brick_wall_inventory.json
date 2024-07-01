@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "extremeend:block/polished_voidstone_bricks"
+  }
+}

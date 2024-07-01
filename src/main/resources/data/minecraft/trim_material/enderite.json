@@ -1,0 +1,10 @@
+
+{
+  "asset_name": "enderite",
+  "description": {
+    "color": "#eeeeee",
+    "text": "Enderite"
+  },
+  "ingredient": "extremeend:enderite_gem",
+  "item_model_index": 1.1
+}

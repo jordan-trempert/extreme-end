@@ -1,0 +1,10 @@
+
+{
+  "asset_name": "ruby",
+  "description": {
+    "color": "#eeeeee",
+    "text": "Ruby"
+  },
+  "ingredient": "extremeend:ruby",
+  "item_model_index": 1.1
+}

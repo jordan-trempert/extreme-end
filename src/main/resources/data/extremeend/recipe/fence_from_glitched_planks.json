@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "extremeend:glitched_planks"
+    },
+    "L": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "#L#",
+    "#L#",
+    "   "
+  ],
+  "result": {
+    "count": 3,
+    "id": "extremeend:glitched_fence"
+  }
+}

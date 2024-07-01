@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values":
+  [
+    "extremeend:void_energy",
+    "extremeend:flowing_void_energy",
+    "extremeend:toxins",
+    "extremeend:flowing_toxins"
+  ]
+}

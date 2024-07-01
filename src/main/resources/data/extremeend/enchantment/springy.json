@@ -1,0 +1,65 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "text": "Springy"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+          "type": "minecraft:attribute",
+          "amount": {
+			  "type": "minecraft:linear",
+			  "base": 0.1,
+			  "per_level_above_first": 0.1
+		  },
+          "attribute": "minecraft:generic.jump_strength",
+          "id": "extremeend:enchantment.springyjump",
+          "operation": "add_value"
+      },
+      {
+          "type": "minecraft:attribute",
+          "amount": 0.5,
+          "attribute": "minecraft:generic.step_height",
+          "id": "extremeend:enchantment.springystep",
+          "operation": "add_value"
+      },
+      {
+          "type": "minecraft:attribute",
+          "amount": {
+			  "type": "minecraft:linear",
+			  "base": -0.2,
+			  "per_level_above_first": -0.15
+		  },
+          "attribute": "minecraft:generic.fall_damage_multiplier",
+          "id": "extremeend:enchantment.springyfallmult",
+          "operation": "add_value"
+      },
+	  {
+          "type": "minecraft:attribute",
+          "amount": {
+			  "type": "minecraft:linear",
+			  "base": 1,
+			  "per_level_above_first": 1
+		  },
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "id": "extremeend:enchantment.springysafefall",
+          "operation": "add_value"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 10
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 10
+  },
+  "exclusive_set": "minecraft:feather_falling",
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 2
+}

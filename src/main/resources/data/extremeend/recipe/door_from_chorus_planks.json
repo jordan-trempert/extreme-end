@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "extremeend:chorus_planks"
+    }
+  },
+  "pattern": [
+    " ##",
+    " ##",
+    " ##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "extremeend:chorus_door"
+  }
+}

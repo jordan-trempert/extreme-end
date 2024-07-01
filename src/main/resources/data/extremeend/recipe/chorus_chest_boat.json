@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "extremeend:chorus_planks"
+    },
+    "O": {
+      "item": "minecraft:chest"
+    }
+  },
+  "pattern": [
+    "   ",
+    "#O#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "extremeend:chorus_chest_boat"
+  }
+}

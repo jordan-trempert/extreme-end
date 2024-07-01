@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:diamond_sword",
+    "minecraft:stone_sword",
+    "minecraft:golden_sword",
+    "minecraft:netherite_sword",
+    "minecraft:wooden_sword",
+    "minecraft:iron_sword",
+    "extremeend:ruby_sword",
+    "extremeend:draconic_sword",
+    "extremeend:enderite_sword"
+  ]
+}

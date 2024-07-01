@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:ender_eye"
+    },
+    "O": {
+      "item": "extremeend:draconic_soul"
+    }
+  },
+  "pattern": [
+    "###",
+    "#O#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "extremeend:pocket_dimension"
+  }
+}

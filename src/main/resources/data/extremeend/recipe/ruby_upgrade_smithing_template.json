@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "extremeend:ruby_block"
+    },
+    "S": {
+      "item": "extremeend:ruby_upgrade_smithing_template"
+    }
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "extremeend:ruby_upgrade_smithing_template"
+  }
+}

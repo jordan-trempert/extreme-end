@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "C": {
+      "item": "extremeend:draconic_soul"
+    },
+    "O": {
+      "item": "extremeend:enderite_gem"
+    }
+  },
+  "pattern": [
+    "#O#",
+    "OCO",
+    "#O#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "extremeend:draconium_ingot"
+  }
+}

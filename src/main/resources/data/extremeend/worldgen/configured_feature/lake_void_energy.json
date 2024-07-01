@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:lake",
+  "config": {
+    "barrier": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "extremeend:voidstone"
+      }
+    },
+    "fluid": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "extremeend:void_energy_block",
+        "Properties": {
+          "level": "0"
+        }
+      }
+    }
+  }
+}

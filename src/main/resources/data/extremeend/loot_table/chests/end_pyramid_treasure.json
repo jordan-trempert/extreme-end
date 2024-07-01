@@ -1,0 +1,94 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "extremeend:ruby_upgrade_smithing_template",
+          "weight": 3,
+          "quality": 2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_upgrade_smithing_template",
+          "weight": 2,
+          "quality": 1
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "extremeend:ruby_block",
+          "weight": 5,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_block",
+          "weight": 2,
+          "quality": 3
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dragon_breath",
+          "weight": 4,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dragon_head",
+          "weight": 2,
+          "quality": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald_block",
+          "weight": 3,
+          "quality": 4
+        }
+      ]
+    },
+    {
+      "rolls": 6,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 10,
+          "quality": 2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "extremeend:draconic_soul",
+          "weight": 1,
+          "quality": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "extremeend:block/stripped_chorus_stem_top",
+    "side": "extremeend:block/stripped_chorus_stem"
+  }
+}

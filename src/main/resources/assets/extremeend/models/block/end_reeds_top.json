@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "extremeend:block/end_reeds_top"
+  }
+}

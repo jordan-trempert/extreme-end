@@ -1,0 +1,10 @@
+
+{
+  "asset_name": "draconic",
+  "description": {
+    "color": "#eeeeee",
+    "text": "Draconic"
+  },
+  "ingredient": "extremeend:draconium_ingot",
+  "item_model_index": 1.1
+}

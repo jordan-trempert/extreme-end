@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:end/root",
+  "criteria": {
+    "enderite_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "extremeend:enderite_helmet"
+          },
+          {
+            "items": "extremeend:enderite_chestplate"
+          },
+          {
+            "items": "extremeend:enderite_leggings"
+          },
+          {
+            "items": "extremeend:enderite_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.end.enderite_armor.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "extremeend:enderite_chestplate"
+    },
+    "title": {
+      "translate": "advancements.end.enderite_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "enderite_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 200
+  },
+  "sends_telemetry_event": true
+}

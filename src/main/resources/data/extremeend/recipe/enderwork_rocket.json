@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "extremeend:enderite_gem"
+    },
+    "O": {
+      "item": "minecraft:firework_rocket"
+    }
+  },
+  "pattern": [
+    "###",
+    "#O#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "extremeend:enderwork"
+  }
+}

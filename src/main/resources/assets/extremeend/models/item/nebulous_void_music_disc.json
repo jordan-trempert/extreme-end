@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "extremeend:item/nebulous_void_music_disc"
+  }
+}

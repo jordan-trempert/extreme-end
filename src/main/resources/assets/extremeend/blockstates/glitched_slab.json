@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "extremeend:block/glitched_slab"
+    },
+    "type=double": {
+      "model": "extremeend:block/glitched_planks"
+    },
+    "type=top": {
+      "model": "extremeend:block/glitched_slab_top"
+    }
+  }
+}

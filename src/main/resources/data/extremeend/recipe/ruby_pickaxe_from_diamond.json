@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "extremeend:ruby_upgrade_smithing_template"
+    },
+    "base": {
+        "item": "minecraft:diamond_pickaxe"
+    },
+    "addition": {
+        "item": "extremeend:ruby_block"
+    },
+    "result": {
+        "id": "extremeend:ruby_pickaxe"
+    }
+}

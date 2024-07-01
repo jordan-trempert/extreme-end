@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "extremeend:voidstone"
+    }
+  },
+  "pattern": [
+    "   ",
+    " ##",
+    " ##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "extremeend:polished_voidstone"
+  }
+}

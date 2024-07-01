@@ -1,0 +1,215 @@
+{
+  "parent": "minecraft:end/root",
+  "criteria": {
+    "extremeend:aurora_glade": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "extremeend:aurora_glade"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "extremeend:end_dunes": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "extremeend:end_dunes"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "extremeend:lush_end": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "extremeend:lush_end"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "extremeend:shattered_void": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "extremeend:shattered_void"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "extremeend:glitched_jungle": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "extremeend:glitched_jungle"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "extremeend:bright_chorus": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "extremeend:bright_chorus"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "extremeend:phosphorus_fields": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "extremeend:phosphorus_fields"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "extremeend:wild_reeds": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "extremeend:wild_reeds"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "extremeend:toxic_wastes": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "extremeend:toxic_wastes"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "extremeend:twisting_chorus": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "extremeend:twisting_chorus"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.end.watch_your_step.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "extremeend:draconic_boots"
+    },
+    "title": {
+      "translate": "advancements.end.watch_your_step.title"
+    }
+  },
+  "requirements": [
+    [
+      "extremeend:aurora_glade"
+    ],
+    [
+      "extremeend:end_dunes"
+    ],
+    [
+      "extremeend:lush_end"
+    ],
+    [
+      "extremeend:shattered_void"
+    ],
+    [
+      "extremeend:bright_chorus"
+    ],
+    [
+      "extremeend:glitched_jungle"
+    ],
+    [
+      "extremeend:wild_reeds"
+    ],
+    [
+      "extremeend:toxic_wastes"
+    ],
+    [
+      "extremeend:twisting_chorus"
+    ],
+    [
+      "extremeend:phosphorus_fields"
+    ]
+
+  ],
+  "rewards": {
+    "experience": 10000
+  },
+  "sends_telemetry_event": true
+}

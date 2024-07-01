@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "top=true": { "model": "extremeend:block/end_reeds_top" },
+    "top=false": { "model": "extremeend:block/end_reeds" }
+  }
+}

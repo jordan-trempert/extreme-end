@@ -1,0 +1,41 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.8,
+  "downfall": 0,
+  "effects": {
+    "foliage_color": 65344,
+    "grass_color": 65344,
+    "sky_color": 65344,
+    "fog_color": 65344,
+    "water_color": 65344,
+    "water_fog_color": 65344
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+
+  },
+  "features": [
+    [
+      "minecraft:end_gateway_return",
+      "extremeend:lake_toxins",
+      "extremeend:patch_toxic_bubbler"
+    ]
+  ]
+}

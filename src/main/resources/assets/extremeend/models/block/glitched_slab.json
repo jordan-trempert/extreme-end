@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "extremeend:block/glitched_planks",
+    "side": "extremeend:block/glitched_planks",
+    "top": "extremeend:block/glitched_planks"
+  }
+}

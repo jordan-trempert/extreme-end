@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "extremeend:enderite_upgrade_smithing_template"
+    },
+    "base": {
+        "item": "minecraft:netherite_helmet"
+    },
+    "addition": {
+        "item": "extremeend:enderite_gem"
+    },
+    "result": {
+        "id": "extremeend:enderite_helmet"
+    }
+}
