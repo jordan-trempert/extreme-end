@@ -3,6 +3,8 @@
     "ingredient": {
         "item": "extremeend:voidstone"
     },
-    "result": "extremeend:polished_voidstone",
-    "count": 1
+    "result": {
+        "count": 1,
+        "id": "extremeend:polished_voidstone"
+    }
 }

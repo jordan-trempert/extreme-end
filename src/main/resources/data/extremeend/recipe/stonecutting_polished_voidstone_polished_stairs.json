@@ -3,6 +3,8 @@
     "ingredient": {
         "item": "extremeend:polished_voidstone"
     },
-    "result": "extremeend:polished_voidstone_stairs",
-    "count": 1
+    "result": {
+        "count": 1,
+        "id": "extremeend:polished_voidstone_brick_stairs"
+    }
 }

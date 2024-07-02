@@ -1,7 +1,7 @@
 {
     "type": "minecraft:stonecutting",
     "ingredient": {
-        "item": "extremeend:voidstone"
+        "item": "extremeend:polished_voidstone_bricks"
     },
     "result": {
         "count": 1,
