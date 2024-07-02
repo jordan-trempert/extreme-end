@@ -79,6 +79,8 @@ public class StardomsExtremeEnd implements ModInitializer {
 
 		//EndBiomeGen.genEndBiomes();
 		EndBiomeGen.replaceGround();
+		EndBiomeGen.genEndBiomes();
+
 
 		// Ores
 		BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, OVERWORLD_RUBY);

@@ -22,9 +22,6 @@
 		],
 		"fabric-datagen": [
 			"stardom.extremeend.StardomsExtremeEndDataGenerator"
-		],
-		"terrablender": [
-			"stardom.extremeend.world.biome.ModTerrablenderAPI"
 		]
 	},
 	"mixins": [

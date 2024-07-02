@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "extremeend:voidstone"
+    },
+    "result": "extremeend:polished_voidstone_slab",
+    "count": 2
+}

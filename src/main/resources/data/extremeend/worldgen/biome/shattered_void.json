@@ -34,13 +34,10 @@
     "water_creature": []
   },
   "spawn_costs": {},
-  "carvers": {
-
-  },
+  "carvers": {},
   "features": [
     [
-      "minecraft:end_gateway_return",
-      "extremeend:lake_void_energy"
+      "minecraft:end_gateway_return"
     ]
   ]
 }

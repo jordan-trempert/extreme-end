@@ -34,8 +34,8 @@
     "water_creature": []
   },
   "spawn_costs": {},
-  "carvers": {
-  },  "features": [
+  "carvers": {},
+  "features": [
     [
       "minecraft:end_gateway_return",
       "minecraft:patch_grass_normal",

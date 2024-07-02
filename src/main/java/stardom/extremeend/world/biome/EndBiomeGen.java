@@ -31,23 +31,104 @@ public class EndBiomeGen {
 
         BiomePlacement.addEnd(RegistryKey.of(RegistryKeys.BIOME, Identifier.of("extremeend", "lush_end")),
                 new MultiNoiseUtil.NoiseHypercube(
-                        MultiNoiseUtil.ParameterRange.of(-1.0f, -0.15f),
-                        MultiNoiseUtil.ParameterRange.of(-1.0f, -0.35f),
-                        MultiNoiseUtil.ParameterRange.of(0.3f, 1.0f),
-                        MultiNoiseUtil.ParameterRange.of(-0.375f, 0.05f),
-                        MultiNoiseUtil.ParameterRange.of(0.0f),
-                        MultiNoiseUtil.ParameterRange.of(0.0f, 1.0f),
+                        MultiNoiseUtil.ParameterRange.of(-0.5f, 0.5f), // Temp
+                        MultiNoiseUtil.ParameterRange.of(0.0f, 0.5f), // Humid
+                        MultiNoiseUtil.ParameterRange.of(0.3f, 1.0f), // Continentalness (unchanged)
+                        MultiNoiseUtil.ParameterRange.of(-0.375f, 0.05f), // Erosion
+                        MultiNoiseUtil.ParameterRange.of(0.2f), // Depth
+                        MultiNoiseUtil.ParameterRange.of(0.3f, 0.8f), // Weirdness
                         0L));
 
         BiomePlacement.addEnd(RegistryKey.of(RegistryKeys.BIOME, Identifier.of("extremeend", "end_dunes")),
                 new MultiNoiseUtil.NoiseHypercube(
-                        MultiNoiseUtil.ParameterRange.of(1.0f, 2f), //Temp
-                        MultiNoiseUtil.ParameterRange.of(-1.0f, -0.35f), //Humid
-                        MultiNoiseUtil.ParameterRange.of(0.6f, 1.3f), //Continentalness
-                        MultiNoiseUtil.ParameterRange.of(-0.375f, 0.075f), //Erosion
-                        MultiNoiseUtil.ParameterRange.of(0.5f), //Depth
-                        MultiNoiseUtil.ParameterRange.of(0.4f, 1.0f), //Weirdness
-                        1L));//Offset
+                        MultiNoiseUtil.ParameterRange.of(1.0f, 2f), // Temp (unchanged)
+                        MultiNoiseUtil.ParameterRange.of(-0.8f, -0.5f), // Humid
+                        MultiNoiseUtil.ParameterRange.of(0.6f, 1.3f), // Continentalness (unchanged)
+                        MultiNoiseUtil.ParameterRange.of(-0.4f, 0.1f), // Erosion
+                        MultiNoiseUtil.ParameterRange.of(0.4f), // Depth
+                        MultiNoiseUtil.ParameterRange.of(0.6f, 1.0f), // Weirdness
+                        1L));
+
+        BiomePlacement.addEnd(RegistryKey.of(RegistryKeys.BIOME, Identifier.of("extremeend", "aurora_glade")),
+                new MultiNoiseUtil.NoiseHypercube(
+                        MultiNoiseUtil.ParameterRange.of(-0.3f, 0.2f), // Temp
+                        MultiNoiseUtil.ParameterRange.of(0.0f, 0.7f), // Humid
+                        MultiNoiseUtil.ParameterRange.of(0.6f, 1.3f), // Continentalness (unchanged)
+                        MultiNoiseUtil.ParameterRange.of(-0.2f, 0.3f), // Erosion
+                        MultiNoiseUtil.ParameterRange.of(0.6f), // Depth
+                        MultiNoiseUtil.ParameterRange.of(0.7f, 1.0f), // Weirdness
+                        1L));
+
+        BiomePlacement.addEnd(RegistryKey.of(RegistryKeys.BIOME, Identifier.of("extremeend", "bright_chorus")),
+                new MultiNoiseUtil.NoiseHypercube(
+                        MultiNoiseUtil.ParameterRange.of(0.4f, 0.9f), // Temp
+                        MultiNoiseUtil.ParameterRange.of(0.3f, 0.8f), // Humid
+                        MultiNoiseUtil.ParameterRange.of(0.6f, 1.3f), // Continentalness (unchanged)
+                        MultiNoiseUtil.ParameterRange.of(-0.1f, 0.4f), // Erosion
+                        MultiNoiseUtil.ParameterRange.of(0.5f), // Depth (unchanged)
+                        MultiNoiseUtil.ParameterRange.of(0.5f, 1.0f), // Weirdness (unchanged)
+                        1L));
+
+        BiomePlacement.addEnd(RegistryKey.of(RegistryKeys.BIOME, Identifier.of("extremeend", "glitched_jungle")),
+                new MultiNoiseUtil.NoiseHypercube(
+                        MultiNoiseUtil.ParameterRange.of(0.7f, 1.3f), // Temp
+                        MultiNoiseUtil.ParameterRange.of(0.2f, 0.6f), // Humid
+                        MultiNoiseUtil.ParameterRange.of(0.6f, 1.3f), // Continentalness (unchanged)
+                        MultiNoiseUtil.ParameterRange.of(-0.3f, 0.2f), // Erosion
+                        MultiNoiseUtil.ParameterRange.of(0.7f), // Depth
+                        MultiNoiseUtil.ParameterRange.of(0.8f, 1.2f), // Weirdness
+                        1L));
+
+        BiomePlacement.addEnd(RegistryKey.of(RegistryKeys.BIOME, Identifier.of("extremeend", "phosphorus_fields")),
+                new MultiNoiseUtil.NoiseHypercube(
+                        MultiNoiseUtil.ParameterRange.of(1.2f, 1.8f), // Temp
+                        MultiNoiseUtil.ParameterRange.of(-0.6f, -0.2f), // Humid
+                        MultiNoiseUtil.ParameterRange.of(0.6f, 1.3f), // Continentalness (unchanged)
+                        MultiNoiseUtil.ParameterRange.of(-0.5f, 0.0f), // Erosion
+                        MultiNoiseUtil.ParameterRange.of(0.3f), // Depth
+                        MultiNoiseUtil.ParameterRange.of(0.2f, 0.7f), // Weirdness
+                        1L));
+
+        BiomePlacement.addEnd(RegistryKey.of(RegistryKeys.BIOME, Identifier.of("extremeend", "shattered_void")),
+                new MultiNoiseUtil.NoiseHypercube(
+                        MultiNoiseUtil.ParameterRange.of(-0.2f, 0.3f), // Temp
+                        MultiNoiseUtil.ParameterRange.of(-0.8f, -0.5f), // Humid
+                        MultiNoiseUtil.ParameterRange.of(0.6f, 1.3f), // Continentalness (unchanged)
+                        MultiNoiseUtil.ParameterRange.of(-0.4f, -0.1f), // Erosion
+                        MultiNoiseUtil.ParameterRange.of(0.1f), // Depth
+                        MultiNoiseUtil.ParameterRange.of(0.1f, 0.6f), // Weirdness
+                        1L));
+
+        BiomePlacement.addEnd(RegistryKey.of(RegistryKeys.BIOME, Identifier.of("extremeend", "toxic_wastes")),
+                new MultiNoiseUtil.NoiseHypercube(
+                        MultiNoiseUtil.ParameterRange.of(1.3f, 1.8f), // Temp
+                        MultiNoiseUtil.ParameterRange.of(-0.9f, -0.6f), // Humid
+                        MultiNoiseUtil.ParameterRange.of(0.6f, 1.3f), // Continentalness (unchanged)
+                        MultiNoiseUtil.ParameterRange.of(-0.5f, -0.2f), // Erosion
+                        MultiNoiseUtil.ParameterRange.of(0.4f), // Depth
+                        MultiNoiseUtil.ParameterRange.of(0.2f, 0.5f), // Weirdness
+                        1L));
+
+        BiomePlacement.addEnd(RegistryKey.of(RegistryKeys.BIOME, Identifier.of("extremeend", "twisting_chorus")),
+                new MultiNoiseUtil.NoiseHypercube(
+                        MultiNoiseUtil.ParameterRange.of(0.5f, 1.0f), // Temp
+                        MultiNoiseUtil.ParameterRange.of(0.0f, 0.5f), // Humid
+                        MultiNoiseUtil.ParameterRange.of(0.6f, 1.3f), // Continentalness (unchanged)
+                        MultiNoiseUtil.ParameterRange.of(-0.2f, 0.1f), // Erosion
+                        MultiNoiseUtil.ParameterRange.of(0.3f), // Depth
+                        MultiNoiseUtil.ParameterRange.of(0.4f, 0.9f), // Weirdness
+                        1L));
+
+        BiomePlacement.addEnd(RegistryKey.of(RegistryKeys.BIOME, Identifier.of("extremeend", "wild_reeds")),
+                new MultiNoiseUtil.NoiseHypercube(
+                        MultiNoiseUtil.ParameterRange.of(0.6f, 1.1f), // Temp
+                        MultiNoiseUtil.ParameterRange.of(0.3f, 0.8f), // Humid
+                        MultiNoiseUtil.ParameterRange.of(0.6f, 1.3f), // Continentalness (unchanged)
+                        MultiNoiseUtil.ParameterRange.of(-0.3f, 0.2f), // Erosion
+                        MultiNoiseUtil.ParameterRange.of(0.2f), // Depth
+                        MultiNoiseUtil.ParameterRange.of(0.3f, 0.8f), // Weirdness
+                        1L));
+
     }
 
 

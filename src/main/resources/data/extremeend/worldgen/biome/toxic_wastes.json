@@ -28,9 +28,7 @@
     "water_creature": []
   },
   "spawn_costs": {},
-  "carvers": {
-
-  },
+  "carvers": {},
   "features": [
     [
       "minecraft:end_gateway_return",
