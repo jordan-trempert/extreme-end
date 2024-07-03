@@ -28,7 +28,9 @@ public class EnderworkItem extends FireworkRocketItem {
                 world.spawnEntity(fireworkRocketEntity);
                 user.incrementStat(Stats.USED.getOrCreateStat(this));
             }
+            user.getItemCooldownManager().set(this, 25);
             return TypedActionResult.success(user.getStackInHand(hand), world.isClient());
+
         }
         return TypedActionResult.pass(user.getStackInHand(hand));
     }
